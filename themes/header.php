@@ -72,7 +72,7 @@
                         <span class="header__hamburger-lines-two header__hamburger-lines-two--1"></span>
                     </div>
                 </div>
-                <p class="header__hamburger-text"><?= $hamburger_text ?></p>
+<!--                <p class="header__hamburger-text">--><?php //= $hamburger_text ?><!--</p>-->
                 </div>
 
                 <!--  EXPANDED-->
