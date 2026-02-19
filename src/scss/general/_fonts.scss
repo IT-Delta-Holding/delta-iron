@@ -1,0 +1,39 @@
+/*
+  Custom Fonts
+ */
+
+@font-face {
+  font-family: "Mallory-Book";
+  src: url("/src/fonts/Mallory-Book.woff2") format("woff2"),
+  url("/src/fonts/Mallory-Book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mallory-Medium";
+  src: url("/src/fonts/Mallory-Medium.woff2") format("woff2"),
+  url("/src/fonts/Mallory-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mallory-Bold";
+  src: url("/src/fonts/Mallory-Bold.woff2") format("woff2"),
+  url("/src/fonts/Mallory-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cera-Pro";
+  src: url("/src/fonts/CeraPro-Regular.woff2") format("woff2"),
+  url("/src/fonts/CeraPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

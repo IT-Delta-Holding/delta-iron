@@ -1,0 +1,218 @@
+@import "../../src/scss/general/variables";
+
+.contact-form-footer{
+  position: relative;
+  background-color: $primaryDILight;
+  padding: 36px 0 60px;
+  max-width: 100%;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: -200px;
+  margin-top: 64px;
+  z-index: 2;
+  overflow: hidden;
+
+  .container{
+    padding: 0 20px;
+  }
+
+  &__img{
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+    width: 700px;
+  }
+
+  &__content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  &__title{
+   color: $primary;
+  }
+
+  &__paragraph{
+    color: $primary;
+  }
+
+  &__formular{
+    color: $primary;
+
+    .wpcf7-text, .wpcf7-email, .wpcf7-tel{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $primaryLight;
+      background: transparent;
+      padding: 12px 0;
+      margin-top: 12px;
+    }
+
+    .wpcf7-textarea{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $primaryLight;
+      background: transparent;
+      height: 100px;
+      margin-top: 12px;
+      padding-top: 35px;
+    }
+
+    .wpcf7-submit{
+      margin-top: 24px;
+      background-color: $primary;
+      color: $white;
+      padding: 12px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      transition: all 0.3s ease-in-out;
+
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+
+    //.wpcf7-response-output{
+    //  margin-top: 15px !important;
+    //  position: absolute;
+    //  right: 0;
+    //  top: 88%;
+    //  width: 250px;
+    //}
+
+    .wpcf7-text:focus, .wpcf7-textarea:focus {
+      outline:none;
+    }
+
+    .contact_counter{
+      position: relative;
+    }
+
+    #char-counter{
+      position: absolute;
+      bottom: 0;
+      right: 15px;
+      color: $primaryLight;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .contact-form-footer{
+    padding: 150px 0 190px;
+    max-width: 100%;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: -306px;
+    margin-top: 125px;
+
+    .container{
+      padding: 0 240px 0 130px;
+    }
+
+    &__img{
+      width: 43%;
+    }
+
+    &__content{
+      flex-direction: row;
+      justify-content: space-between;
+      gap: unset;
+    }
+
+    &__text{
+      width: 505px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    &__paragraph{
+      font-size: 16px;
+    }
+
+    &__formular{
+      color: $primary;
+
+      .wpcf7-text, .wpcf7-email, .wpcf7-tel{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid $primaryLight;
+        background: transparent;
+        padding: 12px 0;
+        margin-top: 12px;
+      }
+
+      .wpcf7-textarea{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid $primaryLight;
+        background: transparent;
+        height: 100px;
+        margin-top: 12px;
+        padding-top: 35px;
+      }
+
+      .wpcf7-submit{
+        margin-top: 24px;
+        background-color: $primary;
+        color: $white;
+        padding: 12px 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+
+      //.wpcf7-response-output{
+      //  margin-top: 15px !important;
+      //  position: absolute;
+      //  right: 0;
+      //  top: 88%;
+      //  width: 250px;
+      //}
+
+      .contact_counter{
+        position: relative;
+      }
+
+      #char-counter{
+        position: absolute;
+        bottom: 0;
+        right: 15px;
+        color: $primaryLight;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1380px) {
+  .contact-form-footer{
+    .container{
+      padding: 0 20px;
+    }
+
+    &__text{
+      width: 460px;
+    }
+    &__title{
+      font-size: 64px;
+    }
+  }
+}

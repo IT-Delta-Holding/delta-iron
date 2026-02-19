@@ -1,0 +1,15 @@
+{
+  "name": "acf/career-form",
+  "title": "Career form",
+  "description": "A Custom Cover One Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "cover-one"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "career-form.php"
+  },
+  "align": "full"
+}

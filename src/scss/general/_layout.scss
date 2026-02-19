@@ -1,0 +1,36 @@
+.radius-large {
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.radius-medium {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.radius-small {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tagline {
+  font: 400 14px/1 $malloryBook;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 680px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1720px;
+  }
+}

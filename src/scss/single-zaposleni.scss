@@ -1,0 +1,69 @@
+@import "./main";
+@import "./components/hero-small";
+
+.member {
+  padding: 48px 0;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  &__role {
+    display: inline-block;
+    font: 400 12px/1 $malloryBook;
+    color: $primaryMedium;
+    text-transform: uppercase;
+    background: $primaryLightest;
+    padding: 6px 24px;
+    border-radius: 100px;
+    margin-bottom: 12px;
+  }
+
+  &__name {
+    font: 500 32px/1.1 $malloryMedium;
+    color: $primary;
+    margin-bottom: 24px;
+  }
+
+  &__content {
+    color: $primary;
+
+    p {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .member {
+    padding: 120px 0;
+
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &__img {
+      order: 2;
+    }
+
+    &__content {
+      order: 1;
+    }
+
+    &__name {
+      font-size: 64px;
+      color: $primary;
+      margin-bottom: 24px;
+    }
+  }
+}

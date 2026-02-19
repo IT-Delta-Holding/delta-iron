@@ -1,0 +1,15 @@
+{
+  "name": "acf/odrzivost",
+  "title": "Odrzivost",
+  "description": "A Custom Odrzivost Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "odrzivost"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "odrzivost.php"
+  },
+  "align": "full"
+}

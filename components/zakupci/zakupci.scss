@@ -1,0 +1,130 @@
+@import "../../src/scss/general/variables";
+//@import "swiper/scss";
+//@import "@splidejs";
+@import '~@splidejs/splide/dist/css/splide.min.css';
+
+
+.zakupci{
+  position: relative;
+  background-color: #D3E3F0;
+  padding: 70px 0;
+  margin-bottom: 120px;
+  overflow: hidden;
+
+  &__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+
+  &__title{
+    text-align: center;
+    margin-bottom: 115px;
+    color: $primary;
+  }
+
+  &__slider-img{
+    transition: all 0.3s ease-in-out;
+  }
+
+  .splide__slide{
+    height: 230px;
+    align-content: center;
+    img{
+      width: 55%;
+      margin: 0 auto;
+      //height: 55px;
+      height: auto;
+    }
+  }
+
+  .splide__slide.is-active{
+    img{
+      width: 80%;
+      margin: 0 auto;
+      //height: 100%;
+      height: auto;
+    }
+  }
+
+
+
+  .splide__arrows{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 120px;
+  }
+
+
+
+  .splide__arrow{
+    position: unset;
+    transform: unset;
+    background: transparent;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .zakupci{
+    &__title{
+      margin-bottom: 80px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .zakupci{
+    padding: 70px 0;
+    margin-bottom: 120px;
+
+    &__bg{
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+
+    &__title{
+      margin-bottom: 115px;
+    }
+
+    &__slider-img{
+      transition: all 0.3s ease-in-out;
+    }
+
+    .splide__slide{
+      height: 230px;
+      align-content: center;
+      img{
+        //width: 55%;
+        width: 45%;
+        margin: 0 auto;
+        //height: 55px;
+        height: auto;
+      }
+    }
+
+    .splide__slide.is-active{
+      img{
+        //width: 80%;
+        width: 65%;
+        margin: 0 auto;
+        //height: 100%;
+        height: auto;
+      }
+    }
+    .splide__arrows{
+      margin-top: 0;
+    }
+  }
+}

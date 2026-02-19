@@ -1,0 +1,159 @@
+@import "main";
+
+
+.error {
+  height: 100vh;
+  background: linear-gradient(273.81deg, #6A9AC2 -42.88%, #02294E 97.08%);
+  position: relative;
+  display: flex;
+
+  &__bg {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__content{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //height: 95%;
+    height: calc(100% - 56px);
+    gap: 64px;
+  }
+
+  &__mobile-bg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    bottom: 0;
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    //padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    width: 40%;
+    text-align: center;
+    //margin: 0 auto 48px;
+  }
+
+  &__text-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  &__title {
+    font: 600 404px/1.3 "Cera-Pro", serif;
+    margin-bottom: 12px;
+    color: $primaryLight;
+  }
+
+  &__subtitle {
+    font: 400 48px/1.1 $Cardo;
+    color: $white;
+  }
+
+  &__paragraph {
+    font: 400 16px/1.1 $CeraPro;
+    color: $white;
+  }
+
+  &__copyright {
+    text-align: center;
+    padding-bottom: 42px;
+    &-text{
+      font: 400 12px/1.1 $malloryBook;
+      color: $white;
+    }
+  }
+
+  .button-iron {
+    gap: 13px;
+    padding-right: 5px;
+    font-size: 15px;
+  }
+}
+
+.footer {
+  display: none;
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  .error {
+
+    &__title {
+      font-size: 250px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .error {
+
+    &__content{
+      flex-direction: column;
+      justify-content: center;
+      gap: unset;
+    }
+
+    &__bg {
+      display: none;
+    }
+
+    &__mobile-bg {
+    display: block;
+    }
+
+    &__text{
+     width: 100%;
+    }
+
+    &__text-right{
+      width: 100%;
+      align-items: center;
+      text-align: center;
+
+      .button-iron{
+        align-self: center;
+      }
+    }
+    &__title {
+      font-size: 156px;
+    }
+
+    &__subtitle {
+      font-size: 25px;
+    }
+
+    &__paragraph {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .error {
+
+    &__bg {
+      display: none;
+    }
+  
+    &__mobile-bg {
+      display: block;
+    }
+  }
+}

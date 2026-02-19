@@ -1,0 +1,63 @@
+@import "../../src/scss/general/variables";
+
+.wysiwyg-editor {
+  padding: 100px 0;
+  width: 100%;
+
+  &--light{
+    background-color: $primaryLightest;
+  }
+
+  &--white{
+    background-color: $white;
+  }
+
+  h3{
+    color: $primary;
+  }
+
+  h2{
+    color: $primary;
+    margin-bottom: 30px;
+  }
+
+  p {
+    text-align: center;
+  }
+  img {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  .form{
+    margin-left: 25px;
+    
+    .form-grid{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .element{
+        margin-bottom: 20px;
+        width: 47%;
+      }
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 1024px) {
+  .wysiwyg-editor {
+    .form{
+      margin-left: 0;
+      
+      .form-grid{
+
+        .element{
+          margin-bottom: 20px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

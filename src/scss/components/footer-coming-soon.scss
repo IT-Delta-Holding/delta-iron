@@ -1,0 +1,94 @@
+.footer-coming-soon{
+  position: relative;
+  z-index: 2;
+  margin-top: -72px;
+  padding: 25px 0;
+
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  &__copyright {
+    align-self: end;
+
+
+    &-text {
+      color: $white;
+      text-transform: uppercase;
+      font: 400 16px/1 $malloryBook;
+    }
+  }
+
+  &__links{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__socials{
+    display: flex;
+    gap: 48px;
+  }
+
+  &__social{
+    filter: invert(100%) brightness(1000%);
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .footer-coming-soon{
+    margin-top: -90px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer-coming-soon{
+    position: relative;
+    z-index: 2;
+    margin-top: -72px;
+    padding: 25px 0;
+
+    &__content{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+    }
+
+    &__copyright {
+      align-self: end;
+
+
+      &-text {
+        color: $white;
+        text-transform: uppercase;
+        font: 400 16px/1 $malloryBook;
+      }
+    }
+
+    &__links{
+      display: flex;
+      width: 52%;
+      justify-content: flex-end;
+    }
+
+    &__socials{
+      display: flex;
+      gap: 48px;
+    }
+
+    &__social{
+      filter: invert(100%) brightness(1000%);
+      transition: all 0.3s ease-in-out;
+
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+  }
+}

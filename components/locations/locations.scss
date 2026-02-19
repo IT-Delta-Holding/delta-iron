@@ -1,0 +1,929 @@
+@import "../../src/scss/general/variables";
+
+.locations{
+  width: 100%;
+  padding: 140px 0 130px;
+
+  //&__rotate-message{
+  //  display: none;
+  //}
+
+  &__top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .button-iron{
+      align-self: center;
+    }
+  }
+
+  &__text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 850px;
+    margin-bottom: 70px;
+  }
+
+  &__title{
+    color: $primary;
+  }
+
+  &__paragraph{
+    color: $primary;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__container{
+    width: 100%;
+    position: relative;
+  }
+
+  &__img{
+    width: 100%;
+    display: block;
+    opacity: 1;
+  }
+
+  &__red-map{
+    width: 100%;
+    display: none;
+    //opacity: 0;
+  }
+
+  &__yellow-map{
+    width: 100%;
+    display: none;
+    opacity: 0;
+  }
+
+  &__blue-map{
+    width: 100%;
+    display: none;
+    opacity: 0;
+  }
+
+  &__light-blue-map{
+    width: 100%;
+    display: none;
+    opacity: 0;
+  }
+
+  .map{
+    //transition: visibility 2s ease-in-out;
+    //animation: visibleImage 1s ease-out forwards;
+  }
+
+  .map.hiddenImg{
+    display: none;
+    animation: hiddenImage 0.5s ease-out forwards;
+    opacity: 0;
+  }
+  .map.visibleImage{
+    animation: visibleImage 0.5s ease-out forwards;
+    display: block;
+  }
+
+  @keyframes visibleImage {
+    0% {
+      display: block;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes hiddenImage {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      display: none;
+    }
+  }
+
+  &__pin{
+    position: absolute;
+    //z-index: 2;
+
+
+    &-content{
+      position: relative;
+      text-align: center;
+    }
+
+    &-info{
+      position: absolute;
+      height: 32px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 6px;
+      padding: 0 10px 10px;
+      transition: all 0.8s ease-in-out;
+      z-index: 2;
+
+      &--centar{
+        background-color: $redPin;
+        width: 139px;
+        top: -35px;
+        left: 32px;
+      }
+      &--centar.hidden{
+        background-color: $white;
+        width: 139px;
+        top: -35px;
+        left: 32px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--centar.customWidth{
+        width: 210px;
+        background-color: $redPin;
+        z-index: 3;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+
+      &--autoput{
+        background-color: $yellowPin;
+        width: 93px;
+        top: -5px;
+        left: -70px;
+        position: absolute;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 6px;
+        padding: 0 10px 10px;
+        transition: all 0.8s ease-in-out;
+        z-index: 2;
+      }
+      &--autoput.hidden{
+        background-color: $white;
+        width: 93px;
+        top: -5px;
+        left: 32px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--autoput.customWidth{
+        width: 182px;
+        background-color: $yellowPin;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--petrovaradin{
+        background-color: $lightBluePin;
+        //width: 363px;
+        width: 240px;
+        top: 30px;
+        left: -10px;
+      }
+      &--petrovaradin.hidden{
+        background-color: $white;
+        width: 240px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--petrovaradin.customWidth{
+        width: 363px;
+        background-color: $lightBluePin;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--pozoriste{
+        background-color: $redPin;
+        width: 252px;
+        top: 30px;
+        left: -120px;
+      }
+      &--pozoriste.hidden{
+        background-color: $white;
+        width: 252px;
+        top: 30px;
+        left: -120px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--pozoriste.customWidth{
+        width: 382px;
+        background-color: $redPin;
+        left: -200px;
+        z-index: 3;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--spens{
+        background-color: $redPin;
+        width: 68px;
+        top: -5px;
+        left: 30px;
+      }
+      &--spens.hidden{
+        background-color: $white;
+        width: 68px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--spens.customWidth{
+        width: 182px;
+        background-color: $redPin;
+        top: -20px;
+        left: -190px;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--autobuska{
+        background-color: $bluePin;
+        width: 247px;
+        top: -5px;
+        left: -255px;
+      }
+      &--autobuska.hidden{
+        background-color: $white;
+        width: 247px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--autobuska.customWidth{
+        width: 375px;
+        background-color: $bluePin;
+        top: 35px;
+        left: -320px;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--tc-big{
+        background-color: $yellowPin;
+        width: 71px;
+        top: 30px;
+        left: -25px;
+      }
+      &--tc-big.hidden{
+        background-color: $white;
+        width: 71px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--tc-big.customWidth{
+        width: 182px;
+        background-color: $yellowPin;
+        left: -80px;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--zeleznicka{
+        background-color: $bluePin;
+        width: 182px;
+        top: 25px;
+        left: 25px;
+      }
+      &--zeleznicka.hidden{
+        background-color: $white;
+        width: 182px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--zeleznicka.customWidth{
+        width: 273px;
+        background-color: $bluePin;
+        left: -80px;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--tehnoloski-park{
+        background-color: $lightBluePin;
+        width: 233px;
+        top: 25px;
+        left: 15px;
+      }
+      &--tehnoloski-park.hidden{
+        background-color: $white;
+        width: 233px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--tehnoloski-park.customWidth{
+        width: 353px;
+        background-color: $lightBluePin;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--sajam{
+        background-color: $bluePin;
+        width: 173px;
+        top: 26px;
+        left: -72px;
+      }
+      &--sajam.hidden{
+        background-color: $white;
+        width: 173px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--sajam.customWidth{
+        width: 259px;
+        background-color: $bluePin;
+        left: -160px;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+      &--promenada{
+        background-color: $lightBluePin;
+        width: 142px;
+        top: 30px;
+        left: -120px;
+      }
+      &--promenada.hidden{
+        background-color: $white;
+        width: 142px;
+        .locations__pin-name{
+          color: $primary;
+          font-size: 16px;
+        }
+      }
+      &--promenada.customWidth{
+        width: 259px;
+        background-color: $lightBluePin;
+        left: -170px;
+        .locations__pin-name{
+          color: $white;
+          font-size: 25px;
+        }
+      }
+
+
+
+
+
+
+
+    }
+
+    &-informations{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+      opacity: 0;
+      transition: all 1s ease-in;
+      z-index: 2;
+
+      &-car{
+        width: 49px;
+        height: 18px;
+      }
+
+      &--autoput{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: center;
+        opacity: 0;
+        transition: all 1s ease-in;
+        z-index: 2;
+      }
+    }
+
+    &-name{
+     text-transform: uppercase;
+      font-size: 16px;
+      color: $white;
+      transition: font-size 0.6s ease-in;
+      text-wrap: nowrap;
+    }
+
+    &-distance{
+      font-size: 20px;
+      color: $white;
+    }
+
+    &-circle{
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 1px solid $primary;
+      //background: linear-gradient(0deg, #0A1430 0%, #0A1532 28%, #0B1B3A 45%, #0D2548 58%, #0F335C 70%, #124476 81%, #165A96 91%, #1B75BC 100%);
+      z-index: 4;
+    }
+
+    #c-pozoriste, #c-centar, #c-spens{
+      background-color: $redPin;
+    }
+    #c-autobuska, #c-zeleznicka , #c-sajam{
+      background-color: $bluePin;
+    }
+    #c-tc-big, #c-autoput{
+      background-color: $yellowPin;
+    }
+    #c-petrovaradin, #c-tehnoloski-park, #c-promenada{
+      background-color: $lightBluePin;
+    }
+
+    &--centar{
+      top: 59.7%;
+      left: 49.2%;
+    }
+    &--autoput{
+      //top: 12%;
+      //left: 53%;
+      top: 1%;
+      left: 54%;
+    }
+
+    &--petrovaradin{
+      top: 66%;
+      left: 62.7%;
+    }
+    &--autobuska{
+      top: 41.6%;
+      left: 35%;
+    }
+
+    &--zeleznicka{
+      top: 39%;
+      left: 39.5%;
+    }
+
+    &--tc-big{
+      top: 23%;
+      left: 36%;
+    }
+
+    &--pozoriste{
+      top: 61%;
+      left: 48%;
+    }
+
+
+    &--tehnoloski-park{
+      top: 80%;
+      left: 51.5%;
+    }
+
+    &--spens{
+      top: 73%;
+      left: 50%;
+    }
+
+    &--sajam{
+      top: 55%;
+      left: 31.5%;
+    }
+
+    &--promenada{
+      top: 80%;
+      left: 46.6%;
+    }
+
+    &-center-puls{
+      position: absolute;
+      width: 102px;
+      height: 102px;
+      background-color: #D82F24;
+      border-radius: 50%;
+      bottom: -38px;
+      left: -45px;
+      opacity: 0.15;
+      animation: pulse 1.5s infinite ease-in-out;
+    }
+  }
+
+  &__routes{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__route{
+    opacity: 1;
+    stroke-dasharray: 0px, 999999px;
+    stroke-dashoffset: 0.001px;
+  }
+
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+      stroke-dasharray: none;
+    }
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      //transform: translate(-50%, -50%) scale(1);
+      transform: scale(1);
+      //opacity: 1;
+    }
+    50% {
+      //transform: translate(-50%, -50%) scale(1.3);
+      transform: scale(1.3);
+      //opacity: 0.6;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .locations{
+    overflow-x: auto;
+    &__container{
+      width: 200%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .locations{
+    //overflow-x: auto;
+
+    &__top-content{
+      flex-direction: column;
+      max-width: 640px;
+      margin: 0 auto 30px auto;
+      gap: 30px;
+
+      .button-iron{
+        align-self: center;
+      }
+    }
+
+    &__text{
+      max-width: 100%;
+      margin-bottom: 0;
+    }
+
+    .container{
+      max-width: 100%;
+      padding: 0;
+    }
+    &__bottom-content{
+      overflow-x: auto;
+    }
+    &__container{
+      width: 200%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .locations{
+    //overflow-x: auto;
+    //overflow-x: hidden;
+    position: relative;
+    //overflow: hidden;
+
+    &__top-content{
+      flex-direction: column;
+      max-width: 100%;
+      margin: 0 auto 30px auto;
+      gap: 30px;
+      padding: 0 20px;
+
+      .button-iron{
+        align-self: center;
+      }
+    }
+
+    &__text{
+      max-width: 100%;
+      margin-bottom: 0;
+    }
+
+    //&__rotate-message {
+    //  display: none;
+    //}
+
+    .map{
+      //height: 800px;
+      object-fit: cover;
+    }
+
+    .container{
+      max-width: 100%;
+      padding: 0;
+    }
+
+    &__bottom-content{
+      overflow-x: auto;
+    }
+    &__container{
+      width: 300%;
+    }
+    &__pin {
+      &-informations-car{
+        width: 40px;
+        height: 14px;
+      }
+      &-distance{
+        font-size: 16px;
+        text-wrap: nowrap;
+      }
+      &-name{
+        font-size: 14px;
+      }
+
+      &-info {
+        height: 25px;
+        padding: 0 10px 10px;
+
+        &--centar {
+          width: 139px;
+          top: -22px;
+          left: 28px;
+        }
+        &--centar.hidden {
+          width: 139px;
+          top: -22px;
+          left: 28px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--centar.customWidth {
+          width: 165px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+        &--tc-big {
+          width: 71px;
+          top: 0;
+          left: -80px;
+        }
+        &--tc-big.hidden {
+          width: 71px;
+          top: 0;
+          left: -80px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--tc-big.customWidth {
+          width: 139px;
+          top: 0;
+          left: -150px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+
+        &--autobuska {
+          width: 220px;
+          top: -5px;
+          left: -227px;
+        }
+        &--autobuska.hidden {
+          width: 220px;
+          top: -5px;
+          left: -227px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--autobuska.customWidth {
+          width: 275px;
+          top: 0;
+          left: -280px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+        &--sajam {
+          width: 160px;
+          top: 26px;
+          left: -72px;
+        }
+        &--sajam.hidden {
+          width: 160px;
+          top: 26px;
+          left: -72px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--sajam.customWidth {
+          width: 195px;
+          top: 26px;
+          left: -145px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+
+        &--pozoriste {
+          width: 225px;
+          top: 30px;
+          left: -120px;
+        }
+        &--pozoriste.hidden {
+          width: 225px;
+          top: 30px;
+          left: -120px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--pozoriste.customWidth {
+          width: 280px;
+          top: 20px;
+          left: -180px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+        &--spens {
+          width: 60px;
+          top: 3px;
+          left: 30px;
+        }
+        &--spens.hidden {
+          width: 60px;
+          top: 3px;
+          left: 30px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--spens.customWidth {
+          width: 155px;
+          top: -10px;
+          left: -167px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+        &--promenada {
+          width: 130px;
+          top: 30px;
+          left: -120px;
+        }
+        &--promenada.hidden {
+          width: 130px;
+          top: 30px;
+          left: -120px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--promenada.customWidth {
+          width: 175px;
+          top: 20px;
+          left: -170px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+        &--tehnoloski-park {
+          width: 210px;
+          top: 25px;
+          left: 15px;
+        }
+        &--tehnoloski-park.hidden {
+          width: 210px;
+          top: 25px;
+          left: 15px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--tehnoloski-park.customWidth {
+          width: 260px;
+          top: 25px;
+          left: 15px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+        &--petrovaradin {
+          width: 215px;
+          top: 20px;
+          left: 20px;
+        }
+        &--petrovaradin.hidden {
+          width: 215px;
+          top: 20px;
+          left: 20px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--petrovaradin.customWidth {
+          width: 270px;
+          top: 50px;
+          left: 20px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+
+        &--autoput {
+          height: 50px;
+          width: 160px;
+          top: 0;
+          left: -70px;
+        }
+        &--autoput.hidden {
+          width: 215px;
+          top: 20px;
+          left: 20px;
+          .locations__pin-name {
+            font-size: 14px;
+          }
+        }
+        &--autoput.customWidth {
+          width: 160px;
+          top: 0;
+          left: -70px;
+          .locations__pin-name {
+            font-size: 18px;
+          }
+        }
+
+
+      }
+    }
+  }
+}

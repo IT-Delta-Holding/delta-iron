@@ -1,0 +1,40 @@
+{
+  "name": "ub",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "compression-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.24",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "gsap": "^3.12.2",
+    "locomotive-scroll": "^4.1.4",
+    "odometer": "^0.4.8",
+    "photoswipe": "^5.3.8",
+    "semver": "^7.5.3",
+    "swiper": "^10.0.3"
+  }
+}

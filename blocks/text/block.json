@@ -1,0 +1,15 @@
+{
+  "name": "acf/text",
+  "title": "Text",
+  "description": "A Custom Text Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "text"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "text.php"
+  },
+  "align": "full"
+}

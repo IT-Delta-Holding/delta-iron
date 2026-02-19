@@ -1,0 +1,15 @@
+{
+  "name": "acf/certificate-block",
+  "title": "Certificate Block",
+  "description": "A Custom Certificate Block Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "certificate-block"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "certificate-block.php"
+  },
+  "align": "full"
+}

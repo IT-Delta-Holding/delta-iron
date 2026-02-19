@@ -1,0 +1,15 @@
+{
+  "name": "acf/centralni-atrijum",
+  "title": "Centralni Atrijum",
+  "description": "A Custom Centralni Atrijum Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "centralni-atrijum"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "centralni-atrijum.php"
+  },
+  "align": "full"
+}

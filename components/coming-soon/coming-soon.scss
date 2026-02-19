@@ -1,0 +1,324 @@
+@import "../../src/scss/general/variables";
+
+.coming-soon{
+  position: relative;
+  height: 100%;
+  //margin-top: -32px;
+  display: flex;
+  align-items: flex-start;
+  padding: 150px 0 100px;
+
+  .container{
+    width: 100%;
+  }
+  &__bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: cover;
+  }
+
+  &__gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: #00000059;
+    z-index: 1;
+  }
+
+  &__content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &-text{
+    font: 400 14px/1.3 $CeraPro;
+    color: $primary;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 3;
+  }
+
+  &__form{
+    position: relative;
+    z-index: 3;
+    background-color: $primaryDILight;
+    width: 100%;
+    max-width: 500px;
+    padding: 24px 20px 84px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    margin: 0 auto;
+
+    h3{
+      font: 400 48px/1.1 $Cardo;
+      color: $primary;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+
+    form{
+      position: relative;
+      z-index: 2;
+    }
+
+    .wpcf7-text, .wpcf7-email, .wpcf7-tel{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $primaryLight;
+      background: transparent;
+      padding: 12px 0;
+      margin-top: 12px;
+    }
+
+    .wpcf7-textarea{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $primaryLight;
+      background: transparent;
+      height: 100px;
+      margin-top: 12px;
+      padding-top: 35px;
+    }
+
+    .wpcf7-submit{
+      margin-top: 24px;
+      background-color: $primary;
+      color: $white;
+      padding: 12px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      transition: all 0.3s ease-in-out;
+      border-radius: 3px;
+
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+
+    .wpcf7-response-output{
+      margin-top: 15px !important;
+      position: absolute;
+      right: 0;
+      top: 88%;
+      width: 250px;
+    }
+
+    .wpcf7-text:focus, .wpcf7-textarea:focus {
+      outline:none;
+    }
+  }
+
+  &__logo{
+    align-self: center;
+    margin-bottom: 48px;
+  }
+
+  &__form-bg{
+    position: absolute;
+    width: 80%;
+    left: 0;
+    //top: 25%;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  &__title{
+    position: relative;
+    z-index: 3;
+    align-self: center;
+    font: 400 64px/1.1 $Cardo;
+    color: $white;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .contact_counter{
+    position: relative;
+  }
+
+  #char-counter{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    color: $primaryLight;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .coming-soon{
+    margin-top: -46px;
+
+    .wpcf7-response-output{
+      top: 98%;
+      width: 100%;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .coming-soon{
+    &__title{
+      font-size: 80px;
+    }
+    &__form{
+      width: 100%;
+      max-width: unset;
+      h3{
+        font-size: 60px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1505px) {
+  .coming-soon{
+    &__content{
+      gap: 64px;
+    }
+    &__form{
+      max-width: 573px !important;
+      padding: 24px 50px 48px !important;
+
+      h3{
+        font-size: 48px !important;
+      }
+    }
+    &__title{
+      font-size: 86px !important;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .coming-soon{
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    .container{
+      width: 100%;
+    }
+
+    &__content{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    &-text{
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    &__form{
+      position: relative;
+      z-index: 3;
+      background-color: $primaryDILight;
+      max-width: 640px;
+      padding: 24px 70px 48px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      border-radius: 24px;
+      margin: unset;
+
+      h3{
+        font-size: 60px;
+        margin-bottom: 12px;
+        text-align: left;
+        position: relative;
+        z-index: 3;
+      }
+
+      form{
+        position: relative;
+        z-index: 2;
+      }
+
+      .wpcf7-text, .wpcf7-email, .wpcf7-tel{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid $primaryLight;
+        background: transparent;
+        padding: 12px 0;
+        margin-top: 0;
+      }
+
+      .wpcf7-textarea{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid $primaryLight;
+        background: transparent;
+        height: 80px;
+        margin-top: 6px;
+        padding-top: 20px;
+      }
+
+      .wpcf7-submit{
+        margin-top: 24px;
+        background-color: $primary;
+        color: $white;
+        padding: 12px 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+
+      .wpcf7-response-output{
+        margin-top: 15px !important;
+        position: absolute;
+        right: 0;
+        top: 88%;
+        width: 250px;
+      }
+    }
+
+    &__logo{
+      align-self: center;
+      margin-bottom: 24px;
+    }
+
+    &__form-bg{
+      position: absolute;
+      width: 80%;
+      left: 0;
+      //top: 25%;
+      bottom: 0;
+      z-index: 1;
+    }
+
+    &__title{
+      position: relative;
+      z-index: 3;
+      align-self: center;
+      font: 400 100px/1.1 $Cardo;
+    }
+
+    .contact_counter{
+      position: relative;
+    }
+
+    #char-counter{
+      position: absolute;
+      bottom: 0;
+      right: 15px;
+      color: $primaryLight;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "acf/locations",
+  "title": "Locations",
+  "description": "A Custom Locations Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "locations"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "locations.php"
+  },
+  "align": "full"
+}

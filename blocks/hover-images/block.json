@@ -1,0 +1,15 @@
+{
+  "name": "acf/hover-images",
+  "title": "Hover Images",
+  "description": "A Custom Hover Images Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "hover-images"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "hover-images.php"
+  },
+  "align": "full"
+}

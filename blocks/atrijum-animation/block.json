@@ -1,0 +1,15 @@
+{
+  "name": "acf/atrijum-animation",
+  "title": "Atrijum Animation",
+  "description": "A Custom Atrijum Animation Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "atrijum-animation"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "atrijum-animation.php"
+  },
+  "align": "full"
+}

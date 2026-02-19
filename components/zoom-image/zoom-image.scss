@@ -1,0 +1,237 @@
+@import "../../src/scss/general/variables";
+
+.zoom-image {
+  overflow: hidden;
+  padding: 70px 0;
+
+  &__img {
+    margin: 0 auto;
+    object-fit: cover;
+    width: 95%;
+  }
+
+  &__text {
+    margin-bottom: 48px;
+  }
+
+  &__title {
+    color: $primary;
+  }
+
+  &__content {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0 70px;
+
+    &--lamela-1, &--lamela-2, &--lamela-3, &--lamela-4 {
+      position: absolute;
+      padding: 3px 5px;
+
+      p {
+        text-transform: uppercase;
+        color: $white;
+        font-size: 14px;
+      }
+    }
+
+    &--lamela-1 {
+      top: 3%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $primary;
+    }
+
+    &--lamela-2 {
+      top: 22%;
+      left: 76%;
+      //right: 12%;
+      background-color: $redPin;
+    }
+
+    &--lamela-3 {
+      top: 22%;
+      //left: 13%;
+      //left: 13%;
+      right: 75%;
+      background-color: $yellowPin;
+    }
+
+    &--lamela-4 {
+      top: 91%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $primaryLight;
+    }
+  }
+
+  &__zoom-preview {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 32px;
+    display: none;
+    pointer-events: none;
+    background-size: 1000% 1000%;
+    background-color: white;
+    box-shadow: 0 10px 15px 0 rgba(11, 21, 26, 0.4);
+  }
+
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 530px){
+  .zoom-image {
+    &__content{
+      &--lamela-4{
+        top: 87%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .zoom-image {
+    &__img{
+      width: 65%;
+    }
+
+    &__text{
+      margin-bottom: 48px;
+    }
+
+    &__content{
+      padding: 0 0 70px;
+      &--lamela-1, &--lamela-2, &--lamela-3, &--lamela-4{
+        padding: 6px 16px;
+        p{
+          text-transform: uppercase;
+          color: $white;
+          font-size: 18px;
+        }
+      }
+      &--lamela-1{
+        top: 10%;
+        left: unset;
+        right: 17%;
+        transform: unset;
+      }
+      &--lamela-2{
+        top: 60%;
+        left: unset;
+        right: 0;
+      }
+      &--lamela-3{
+        top: 68%;
+        left: 0;
+        right: unset;
+      }
+      &--lamela-4{
+        top: 87%;
+        left: 42%;
+        transform: unset;
+      }
+    }
+
+    &__button {
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .zoom-image {
+    padding: 120px 0;
+
+    &__img {
+      width: 50vw;
+    }
+
+    &__text {
+      margin-bottom: 135px;
+    }
+
+    &__content {
+      padding: 0 0 70px;
+
+      &--lamela-1, &--lamela-2, &--lamela-3, &--lamela-4 {
+        padding: 10px 22px;
+
+        p {
+          font-size: 32px;
+        }
+      }
+
+      &--lamela-1 {
+        top: 10%;
+        left: 61%;
+        transform: unset;
+      }
+
+      &--lamela-2 {
+        top: 60%;
+        left: 77%;
+      }
+
+      &--lamela-3 {
+        top: 68%;
+        right: 78%;
+      }
+
+      &--lamela-4 {
+        top: 93%;
+        left: 44%;
+        transform: unset;
+      }
+    }
+
+    &__button {
+      justify-content: flex-end;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+  .zoom-image {
+    &__img{
+      width: 50vw;
+    }
+
+    &__content{
+
+      &--lamela-1, &--lamela-2, &--lamela-3, &--lamela-4{
+        padding: 6px 16px;
+        p{
+          text-transform: uppercase;
+          color: $white;
+          font-size: 24px;
+        }
+      }
+      &--lamela-1{
+        top: 10%;
+        left: 60%;
+        background-color: $primary;
+      }
+      &--lamela-2{
+        top: 60%;
+        left: 75%;
+        background-color: $redPin;
+      }
+      &--lamela-3{
+        top: 68%;
+        left: unset;
+        right: 76%;
+        background-color: $yellowPin;
+      }
+      &--lamela-4{
+        top: 92%;
+        left: 44%;
+        background-color: $primaryLight;
+      }
+    }
+  }
+}

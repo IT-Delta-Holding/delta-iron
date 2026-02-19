@@ -1,0 +1,15 @@
+{
+  "name": "acf/wysiwyg-editor",
+  "title": "Wysiwyg Editor",
+  "description": "A Custom Wysiwyg Editor Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "wysiwyg-editor"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "wysiwyg-editor.php"
+  },
+  "align": "full"
+}

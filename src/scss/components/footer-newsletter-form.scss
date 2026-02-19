@@ -1,0 +1,50 @@
+.wpcf7 {
+  max-width: 340px;
+  br {
+    display: none;
+  }
+
+  &-form {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 24px;
+
+    p {
+      &:first-of-type {
+        flex: 1;
+      }
+    }
+  }
+
+  &-form-control-wrap {
+    position: relative;
+  }
+
+  &-email {
+    width: 100%;
+    padding: 15px 12px;
+    background: $primaryDarkest;
+    border: 1px solid $primaryMedium;
+    color: $primaryMedium;
+    border-radius: 16px;
+
+    &:active,
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  form {
+    &.invalid,
+    &.sent {
+      .wpcf7-response-output {
+        width: 100%;
+        font: 400 16px/1.4 $malloryBook;
+        margin: 0;
+        border: 0;
+        padding: 0;
+      }
+    }
+  }
+}

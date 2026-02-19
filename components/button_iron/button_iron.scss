@@ -1,0 +1,103 @@
+@import "../../src/scss/general/variables";
+
+.button-iron {
+  position: relative;
+  padding: 18px 13px;
+  background-color: transparent;
+  font: 400 17px/1 $malloryBook;
+  display: flex;
+  text-transform: uppercase;
+  align-self: start;
+  z-index: 1;
+  text-decoration: none;
+
+
+  &-primary {
+    color: $primary;
+    border: 1px solid $primary;
+    transition: color 0.5s ease-in-out;
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 0;
+      background: $primary;
+      transition: height 0.5s ease-in-out;
+      z-index: -1;
+    }
+
+    &:hover::before {
+      height: 100%;
+    }
+
+    &:hover {
+      color: $white;
+
+      svg {
+        path {
+          fill: $white;
+        }
+      }
+    }
+  }
+
+    &-white {
+      color: $white;
+      border: 1px solid $white;
+      transition: color 0.5s ease-in-out;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0;
+        background: $white;
+        transition: height 0.5s ease-in-out;
+        z-index: -1;
+      }
+
+      &:hover::before {
+        height: 100%;
+      }
+
+      &:hover {
+        color: $primary;
+
+        svg {
+          path {
+            fill: $primary;
+          }
+        }
+      }
+    }
+
+    &-big {
+      gap: 115px;
+    }
+
+    &-small {
+      gap: 24px;
+    }
+
+    &-start {
+      align-self: start;
+    }
+
+    &-unset {
+      align-self: unset;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  .button-iron {
+    justify-content: space-between;
+    width: 100%;
+    &-big {
+      gap: 60px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "acf/odrzivost-animation",
+  "title": "Odrzivost Animation",
+  "description": "A Custom Odrzivost Animation Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "odrzivost-animation"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "odrzivost-animation.php"
+  },
+  "align": "full"
+}

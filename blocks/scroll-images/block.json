@@ -1,0 +1,15 @@
+{
+  "name": "acf/scroll-images",
+  "title": "Scroll images",
+  "description": "Scroll images",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "scroll-images"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "scroll-images.php"
+  },
+  "align": "full"
+}

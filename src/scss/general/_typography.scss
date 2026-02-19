@@ -1,0 +1,45 @@
+.h1 {
+  font: 400 40px/1.1 $Cardo;
+}
+
+.h2 {
+  font: 500 32px/1.1 $Cardo;
+}
+
+.h3 {
+  font: 400 34px/1.1 $Cardo;
+}
+
+.h3-static {
+  font: 400 32px/1.1 $Cardo;
+}
+
+p {
+  font: 400 16px/1.3 $CeraPro;
+}
+
+@media only screen and (min-width: 768px) {
+  .h1 {
+    font-size: 96px;
+  }
+  .h2 {
+    font-size: 46px;
+  }
+  .h3 {
+    font-size: 48px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .h1 {
+    font-size: 100px;
+  }
+  .h2 {
+    font-size: 64px;
+  }
+
+  .h3 {
+    font-size: 70px;
+  }
+}

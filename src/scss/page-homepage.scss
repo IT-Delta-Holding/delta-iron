@@ -1,0 +1,7 @@
+@import "main";
+
+.hero {
+  &__breadcrumb {
+    visibility: hidden;
+  }
+}

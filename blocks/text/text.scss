@@ -1,0 +1,115 @@
+@import "../../src/scss/general/variables";
+
+.text {
+  color: $primary;
+  padding: 48px 0;
+
+  h1 {
+    font: 500 32px/1.1 $malloryMedium;
+    color: $primary;
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font: 500 24px/1.1 $malloryMedium;
+    color: $primary;
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font: 500 20px/1.1 $malloryMedium;
+    color: $primary;
+    margin-bottom: 48px;
+  }
+
+  p {
+    margin-bottom: 24px;
+    strong,
+    b {
+      font: 700 16px/1.4 $malloryBold;
+    }
+  }
+
+  a {
+    font: 700 16px/1.4 $malloryBold;
+    color: $secondary;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      font: 400 16px/1.4 $malloryBook;
+      margin-bottom: 12px;
+
+      &:before {
+        content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='9' height='13' viewBox='0 0 9 13' fill='none'%3e%3cpath d='M1 1.5L8 6.5L1 11.5' stroke='%231C75BC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e");
+        margin: 2px 12px 0 0;
+      }
+    }
+  }
+
+
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      font: 400 16px/1.4 $malloryBook;
+      margin-bottom: 12px;
+    }
+  }
+
+  .wp-block-columns {
+    .wp-block-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .text {
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .text {
+    padding: 60px 0;
+
+    .wp-block-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .text {
+    h1 {
+      font-size: 80px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+  }
+}

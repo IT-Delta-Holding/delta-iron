@@ -1,0 +1,93 @@
+@import "./general/normalize";
+@import "./general/box-sizing";
+@import "./general/fonts";
+@import "./general/variables";
+@import "./general/buttons";
+@import "./general/layout";
+@import "./general/typography";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/header-coming-soon";
+@import "./components/footer-coming-soon";
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+
+/* link za menije sa animacijom */
+a.anim-link-item{
+  font: 400 14px/1.4 $malloryBook;
+  //color: $white;
+  color: $primary;
+  white-space:nowrap;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 400ms ease-in-out;
+
+
+  &:before{
+    content: "/";
+    display:inline-block;
+    opacity:0;
+    margin-right:-7px;
+    -webkit-transition: all 400s ease;
+    -moz-transition: all 400s ease;
+    -ms-transition: all 400s ease;
+    -o-transition: all 400s ease;
+    transition: all 400ms ease;
+  }
+
+  &:after{
+    content: "";
+    display:inline-block;
+    margin-left:0;
+    -webkit-transition: all 400s ease;
+    -moz-transition: all 400s ease;
+    -ms-transition: all 400s ease;
+    -o-transition: all 400s ease;
+    transition: all 400ms ease;
+  }
+
+  &:hover{
+    opacity: 1;
+    color:$secondary;
+    &:before{
+      opacity:1;
+      margin-right:5px;
+    }
+    &:after{
+      margin-left:-12px;
+    }
+  }
+
+  &.active {
+    background-color: $primary;
+    color: $white;
+    padding: 6px 11px;
+    border-radius: 20px;
+    //&:before{
+    //  opacity:1;
+    //  margin-right:0;
+    //}
+    //&:after{
+    //  margin-left:-12px;
+    //}
+    &:hover{
+      opacity: 1;
+      color:$white;
+      //&:before{
+      //  opacity:1;
+      //  margin-right:5px;
+      //}
+      //&:after{
+      //  margin-left:-12px;
+      //}
+    }
+  }
+}

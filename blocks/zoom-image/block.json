@@ -1,0 +1,15 @@
+{
+  "name": "acf/zoom-image",
+  "title": "Zoom Image",
+  "description": "A Custom Zoom Image Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "zoom-image"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "zoom-image.php"
+  },
+  "align": "full"
+}

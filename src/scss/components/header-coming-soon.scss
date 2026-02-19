@@ -1,0 +1,884 @@
+.header-coming-soon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 997;
+  padding: 21px 0 0;
+  transition: all 300ms ease-in-out;
+  //background-color: #DFEEF8;
+  background-color: transparent;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: flex-end;
+    width: calc(50% + 50px);
+
+    &-img {
+     display: none;
+    }
+
+    &-img--mobile {
+      display: block;
+      width: 100px;
+      height: auto;
+    }
+  }
+
+  &__dre-logo{
+    display: none;
+    filter: invert(100%) brightness(1000%);
+  }
+
+  &__dark-logo{
+    width: 166px;
+    height: 90px;
+  }
+
+
+  /* language switcher: treba proveriti kada se doda eng jezik */
+  .wpml-ls {
+    position: relative;
+    //top: unset;
+    //left: -20px;
+
+
+    //&-current-language {
+      .wpml-ls-link {
+        color: $white;
+      }
+    //}
+  }
+
+  &__menu {
+    position: absolute;
+    top: 88px;
+    left: -100%;
+    display: grid;
+    width: 100%;
+    background-color: #dfeef8;
+    height: 0;
+    overflow: scroll;
+    transition: height 1s ease-out;
+
+    &-languages{
+      display: flex;
+      justify-content: flex-end;
+      font: 400 17px/1 $malloryBook;
+      color: $white;
+    }
+
+      //&-link-card {
+      //  width: 100%;
+      //  height: 102px;
+      //  position: relative;
+      //  overflow: hidden;
+      //  border-radius: 20px;
+      //  display: flex;
+      //
+      //  &-img {
+      //    position: absolute;
+      //    width: 100%;
+      //    height: 100%;
+      //    object-fit: cover;
+      //  }
+      //
+      //  &--gradient {
+      //    position: absolute;
+      //    top: 0;
+      //    width: 100%;
+      //    height: 100%;
+      //    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+      //  }
+      //
+      //  &--link {
+      //    position: relative;
+      //    display: flex;
+      //    flex-direction: row;
+      //    justify-content: space-between;
+      //    width: 100%;
+      //    align-self: end;
+      //    margin-bottom: 18px;
+      //    padding: 0 20px;
+      //
+      //    .js-arrow-circle {
+      //      align-self: center;
+      //    }
+      //  }
+      //  &--text{
+      //    color: $white;
+      //    align-self: center;
+      //    width: 70%;
+      //  }
+      //}
+
+
+    //&-languages{
+    //  display: none;
+    //}
+
+    //&-buttons-links{
+    //  display: flex;
+    //  justify-content: space-between;
+    //  width: 100%;
+    //  margin-bottom: 24px;
+    //  margin-top: 3px;
+    //}
+
+    &-languages--mobile{
+      display: flex;
+      align-self: center;
+      font-size: 14px;
+    }
+
+    &-links {
+      width: 100%;
+      padding-bottom: 104px;
+
+      .container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        gap: 12px;
+      }
+
+    }
+
+
+    //&-socials {
+    //  width: 100%;
+    //  display: flex;
+    //  flex-flow: row wrap;
+    //  align-items: center;
+    //  justify-content: left;
+    //  gap: 24px;
+    //  padding: 0;
+    //}
+
+    //&-social {
+    //  width: auto;
+    //  height: auto;
+    //  display: flex;
+    //  align-items: center;
+    //  justify-content: center;
+    //  opacity: 0.5;
+    //  transition: opacity 300ms ease-in-out;
+    //
+    //  &-icon {
+    //    display: block;
+    //    width: 20px;
+    //    height: 20px;
+    //  }
+    //
+    //  &:hover {
+    //    opacity: 1;
+    //  }
+    //}
+  }
+
+  &__toggles {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__hamburger {
+    position: relative;
+    width: 64px;
+    display: flex;
+    flex-flow: column;
+    gap: 6px;
+    padding: 14px 0;
+    cursor: pointer;
+    //z-index: 998;
+
+    &-lines {
+      display: block;
+      align-self: end;
+      transition: all 550ms ease-in-out;
+
+      span {
+        display: block;
+        height: 2px;
+        background: $white;
+        transition: all 550ms ease-in-out;
+      }
+
+      &-one--1{
+        width: 64px;
+        opacity: 1;
+      }
+
+
+      &-two--1{
+        width: 64px;
+      }
+
+    }
+
+    &:hover {
+      .header__hamburger {
+        &-lines {
+          span {
+            background: $primaryLight;
+          }
+        }
+      }
+    }
+
+    &-menu{
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      //&:hover{
+      //  color: $primaryLight;
+      //  .header__hamburger {
+      //    &-lines {
+      //      span {
+      //        background: $primaryLight;
+      //      }
+      //    }
+      //  }
+      //}
+    }
+
+    &-menu--expanded{
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      text-transform: uppercase;
+      width: 25%;
+    }
+
+    &-menu{
+      font: 400 17px/1 $malloryBook;
+      color: $white;
+      text-transform: uppercase;
+    }
+  }
+
+  &.expended {
+    .header-coming-soon {
+      &__hamburger {
+        span {
+          background: $primary;
+        }
+
+        &-text {
+          color: $primary;
+        }
+
+        &-lines {
+
+          &-one {
+            &--1 {
+              transform: rotate(-30deg) translateX(-6px);
+              //opacity: 0;
+            }
+          }
+
+          &-two {
+            &--1 {
+              transform: rotate(30deg) translateX(-6px);
+            }
+
+          }
+        }
+
+        &:hover {
+          .header-coming-soon__hamburger {
+            &-lines {
+              span {
+                background: $primaryLight;
+              }
+            }
+          }
+        }
+      }
+
+      &__menu{
+        &-languages--expanded{
+          color: $primary;
+        }
+      }
+
+      &__contact{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      }
+
+      &__contact-button{
+        z-index: -1;
+      }
+    }
+  }
+
+  &__search {
+    &-button {
+      cursor: pointer;
+      z-index: 999;
+
+      svg {
+        display: block;
+        width: 24px;
+        height: auto;
+
+        path {
+          transition: 300ms ease-in-out;
+          stroke: $primary;
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            stroke: $secondary;
+          }
+        }
+      }
+    }
+
+    &-modal {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background: linear-gradient(0deg, rgba(27, 59, 71, 0.85) 0%, rgba(27, 59, 71, 0.85) 100%);
+      backdrop-filter: blur(4px);
+      color: $primary;
+      opacity: 0;
+      transition: opacity 300ms ease-in-out;
+      pointer-events: none;
+      z-index: -998;
+
+      .container {
+        display: flex;
+        flex-flow: column nowrap;
+        background: $white;
+        border-radius: 16px;
+        padding: 24px;
+        width: 100%;
+        max-width: 600px;
+        max-height: 80vh;
+        margin: 0 20px;
+      }
+
+      &-close {
+        cursor: pointer;
+        margin: 0 0 24px auto;
+
+        svg {
+          display: block;
+          width: 34px;
+          height: auto;
+
+          path {
+            fill: $primary;
+            transition: fill 300ms ease-in-out;
+          }
+        }
+
+        &:hover {
+          svg {
+            path {
+              fill: $secondary;
+            }
+          }
+        }
+      }
+
+      &-input {
+        width: 100%;
+        font: 400 16px/1.4 $malloryBook;
+        border: 1px solid $primaryMedium;
+        padding: 15px 12px;
+        border-radius: 16px;
+        margin-bottom: 24px;
+
+        &:active,
+        &:focus,
+        &:hover {
+          outline: 0;
+        }
+
+        &::placeholder {
+          color: $primaryMedium;
+        }
+      }
+
+      &-results {
+        flex: 1;
+        max-height: 200px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        gap: 24px;
+        padding-right: 12px;
+        overflow-y: auto;
+      }
+
+      &-result {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        color: $primary;
+        transition: color 300ms ease-in-out;
+
+        &-img {
+          width: 100%;
+          height: auto;
+          aspect-ratio: 4/3;
+          object-fit: cover;
+          border-radius: 16px;
+        }
+
+        &-title {
+          font-size: 16px;
+          padding-left: 12px;
+        }
+
+        &:hover {
+          color: $secondary;
+        }
+      }
+
+      &-error {
+        display: none;
+      }
+
+      &.active {
+        opacity: 1;
+        pointer-events: initial;
+        z-index: 998;
+      }
+    }
+  }
+
+  &.sticky {
+    background: $white;
+    padding: 21px 0;
+    box-shadow: 0px 10px 15px 0px #0B151A66;
+
+    .header-coming-soon__hamburger-menu{
+      span{
+        background: $primary;
+      }
+      p{
+        color: $primary;
+      }
+    }
+
+    .header-coming-soon__menu-item{
+      color: $primary;
+    }
+
+    .header-coming-soon__contact-button{
+      padding: 18px 13px;
+      background-color: transparent;
+      font: 400 17px/1 $malloryBook;
+      border: 1px solid $primary;
+      color: $primary;
+      transition: all 0.5s ease-in-out;
+      display: flex;
+      gap: 115px;
+      text-transform: uppercase;
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0;
+        background: $primary; /* Boja punjenja */
+        transition: height 0.5s ease-in-out;
+        z-index: -1;
+      }
+      &:hover::before{
+        height: 100%;
+      }
+      &:hover{
+        //background-color: $white;
+        color: $white;
+
+        svg{
+          path{
+            fill: $white;
+          }
+        }
+      }
+    }
+
+    &.searching {
+      backdrop-filter: none;
+      background: transparent;
+    }
+    .header-coming-soon__dre-logo{
+      filter: unset;
+    }
+
+    .header-coming-soon__menu-languages{
+      .wpml-ls-link {
+        color: $primary;
+      }
+    }
+  }
+  .button-iron{
+    display: none;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .header-coming-soon {
+    &__menu {
+
+      &-links {
+        &-content {
+          gap: 12px;
+        }
+      }
+
+      &-sublinks {
+        height: 100%;
+
+        &-content {
+          height: 100%;
+          overflow-y: auto;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .header-coming-soon {
+    &__menu {
+      &-link-card {
+        width: calc(33% - 12px) !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header-coming-soon {
+    &__menu {
+      &-link-card {
+       height: 144px;
+      }
+    }
+    &__logo {
+      width: calc(50% + 60px);
+      &-img--mobile {
+        width: 120px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .header-coming-soon {
+    &__logo {
+      display: flex;
+      justify-content: flex-end;
+      width: 50%;
+
+      &-img {
+        display: block;
+        width: auto;
+        height: 77px;
+        object-fit: contain;
+        object-position: left;
+        transition: width 300ms ease-in-out;
+      }
+
+      &-img--mobile {
+        display: none;
+      }
+    }
+
+    &__dre-logo{
+      display: block;
+      filter: invert(100%) brightness(1000%);
+    }
+  &__logo--mobile{
+    display: none;
+  }
+    .button-iron{
+      display: flex;
+    }
+
+    &__menu {
+      left: -100%;
+      transition: left 1s ease-out;
+      overflow: hidden;
+      height: 100vh;
+      max-height: 1080px;
+      transform: none;
+      top: 0;
+      z-index: 999;
+
+      .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        //justify-content: center;
+        width: 100%;
+      }
+
+      &--content{
+        display: flex;
+        width: 100%;
+        gap: 174px;
+
+        &-right{
+          display: flex;
+          flex-direction: column;
+          gap: 124px;
+          align-self: end;
+        }
+
+        &-items{
+          display: flex;
+          flex-direction: column;
+          gap: 42px;
+        }
+        &-item{
+          color: $primary;
+          text-transform: uppercase;
+          font: 400 70px/1 $malloryBook;
+          transition: all 0.3s ease-in-out;
+
+          &:hover{
+            color: $primaryLight;
+          }
+        }
+      }
+
+      &--bottom{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 88px;
+
+        &-copyright{
+          font: 400 20px/1.1 $malloryBook;
+          text-transform: uppercase;
+          color: $primary;
+        }
+
+        &-socials{
+          display: flex;
+          gap: 48px;
+        }
+
+        &-social{
+          opacity: 1;
+          transition: opacity 0.3s ease-in-out;
+          &:hover{
+            opacity: 0.6;
+          }
+        }
+      }
+
+      &-img{
+        width: 722px;
+        height: 576px;
+        object-fit: cover;
+        object-position: 60%;
+      }
+
+      &-items{
+        display: flex;
+        gap: 70px;
+      }
+
+      &-item{
+        color: $white;
+        text-transform: uppercase;
+        font: 400 18px/1 $malloryBook;
+      }
+
+
+      &-languages{
+        display: flex;
+        justify-content: flex-end;
+        font: 400 17px/1 $malloryBook;
+        color: $white;
+        .container{
+          height: fit-content;
+          padding:0;
+        }
+      }
+
+      &--header{
+        width: 100%;
+        display: flex;
+        padding: 21px 0;
+        justify-content: space-between;
+      }
+    }
+
+    &__search {
+      &-modal {
+        &-close {
+          margin-bottom: 48px;
+        }
+
+        &-results {
+          max-height: 400px;
+        }
+
+        &-result {
+          &-title {
+            font-size: 24px;
+            padding-left: 24px;
+          }
+        }
+      }
+    }
+
+    &.sticky {
+      .header-coming-soon {
+        &__dre-logo{
+          filter: unset;
+        }
+
+        &__menu-languages{
+          color: $primary;
+        }
+      }
+      .button-iron-white{
+        color: $primary;
+        border: 1px solid $primary;
+        svg {
+          path {
+            fill: $primary;
+          }
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 0;
+          background: $primary;
+          transition: height 0.5s ease-in-out;
+          z-index: -1;
+        }
+
+        &:hover::before {
+          height: 100%;
+        }
+
+        &:hover {
+          color: $white !important;
+
+          svg {
+            path {
+              fill: $white;
+            }
+          }
+        }
+      }
+    }
+
+    &__contact-button{
+      padding: 18px 13px;
+      background-color: transparent;
+      font: 400 17px/1 $malloryBook;
+      border: 1px solid $white;
+      color: $white;
+      transition: all 0.5s ease-in-out;
+      display: flex;
+      gap: 115px;
+      text-transform: uppercase;
+      position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0;
+        background: $white; /* Boja punjenja */
+        transition: height 0.5s ease-in-out;
+        z-index: -1;
+      }
+      &:hover::before{
+        height: 100%;
+      }
+      &:hover{
+        //background-color: $white;
+        color: $primary;
+
+        svg{
+          path{
+            fill: $primary;
+          }
+        }
+      }
+    }
+
+    &__contact-button--expanded{
+      padding: 18px 13px;
+      background-color: transparent;
+      font: 400 17px/1 $malloryBook;
+      border: 1px solid $primary;
+      color: $primary;
+      transition: all 0.5s ease-in-out;
+      display: flex;
+      gap: 115px;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1;
+      &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0;
+        background: $primary;
+        transition: height 0.5s ease-in-out;
+        z-index: -1;
+      }
+      &:hover::before{
+        height: 100%;
+      }
+      &:hover{
+        color: $white;
+
+        svg{
+          path{
+            fill: $white;
+          }
+        }
+      }
+    }
+
+    &__dre-logo-dark{
+      width: 116px;
+      height: 24px;
+    }
+
+    &__dre-logo{
+      filter: invert(100%) brightness(1000%);
+    }
+
+  }
+}

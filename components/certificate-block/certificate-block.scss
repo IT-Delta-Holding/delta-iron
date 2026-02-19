@@ -1,0 +1,85 @@
+@import "../../src/scss/general/variables";
+
+.certificate_block {
+  padding: 52px 0 103px;
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1030px;
+    gap: 45px;
+    align-items: center;
+  }
+
+  &__img {
+    height: 128px;
+    width: 128px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+
+  &__title {
+    color: $primary;
+  }
+
+  &__paragraph {
+    color: $primary;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    p{
+      font-size: 14px;
+    }
+  }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .certificate_block {
+    padding: 184px 0 154px;
+
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__content {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      max-width: 1030px;
+      gap: 90px;
+    }
+
+    &__img {
+      height: 196px;
+      width: 196px;
+    }
+
+    &__text {
+      text-align: start;
+    }
+
+    &__paragraph {
+      max-width: 625px;
+
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+}

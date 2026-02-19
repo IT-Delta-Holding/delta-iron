@@ -1,0 +1,15 @@
+{
+  "name": "acf/animation-hero",
+  "title": "Animation Hero",
+  "description": "A Custom Animation Hero Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "animation-hero"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "animation-hero.php"
+  },
+  "align": "full"
+}

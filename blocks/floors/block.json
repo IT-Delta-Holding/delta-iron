@@ -1,0 +1,15 @@
+{
+  "name": "acf/floors",
+  "title": "Floors",
+  "description": "A Custom Floors Block.",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": [
+    "floors"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "floors.php"
+  },
+  "align": "full"
+}
