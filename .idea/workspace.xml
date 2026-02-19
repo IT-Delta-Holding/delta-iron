@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b53a0c8-3aca-4b17-8709-5d0a43309171" name="Changes" comment="Dodat ceo kod u wp-content/themes folder">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/.idea/delta-iron.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/.idea/delta-iron.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64bc36499a1ce.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64bc36499a1ce.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64bc783da2489.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64bc783da2489.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64bd8a556448d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64bd8a556448d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64bd9ff19d806.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64bd9ff19d806.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64bda14504316.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64bda14504316.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64c2ee4ccacad.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64c2ee4ccacad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64c4743fafabe.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64c4743fafabe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d0214141dc4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d0214141dc4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d26b8272406.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d26b8272406.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d26b9c02362.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d26b9c02362.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d27a98c082a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d27a98c082a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d287732b740.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d287732b740.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d297720f6b6.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d297720f6b6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d2c88b94740.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d2c88b94740.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d3b17ea0916.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d3b17ea0916.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d538e9ddab2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d538e9ddab2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d90fed58817.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d90fed58817.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d914bc02bbd.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d914bc02bbd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d92d84c9657.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d92d84c9657.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d93988ea027.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d93988ea027.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64d939ff7a0f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64d939ff7a0f4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64db23370aa01.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64db23370aa01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64db2383eef43.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64db2383eef43.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64dd145c94021.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64dd145c94021.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64dd162d8ba73.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64dd162d8ba73.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64dd23c83547c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64dd23c83547c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64dd23df90974.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64dd23df90974.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64dd4712a492d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64dd4712a492d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64dd47450b42a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64dd47450b42a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64dd5348470fd.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64dd5348470fd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e0e25d37742.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e0e25d37742.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e0e2f3a5774.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e0e2f3a5774.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e0e90a015d2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e0e90a015d2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e0e97411574.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e0e97411574.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e1087a5bcb0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e1087a5bcb0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e108c45dd1a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e108c45dd1a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e21de428689.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e21de428689.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e21e13097d7.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e21e13097d7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e3e45396171.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e3e45396171.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e4f6d813cbb.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e4f6d813cbb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e51fb122462.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e51fb122462.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e52fb55bd02.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e52fb55bd02.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e6df7901fbb.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e6df7901fbb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64e85ce7255a1.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64e85ce7255a1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64ea9cfc2ac7e.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64ea9cfc2ac7e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64ebbd447f5b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64ebbd447f5b9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64ebc1981ea16.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64ebc1981ea16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64ebc1caaf106.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64ebc1caaf106.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64ee582c3ab55.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64ee582c3ab55.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64ee5b1667143.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64ee5b1667143.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64ee5da911e3a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64ee5da911e3a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64eedc45de589.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64eedc45de589.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64eedd9d60bc9.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64eedd9d60bc9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64eff8bef309b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64eff8bef309b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64f00d33c3fa2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64f00d33c3fa2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64f00d73f03ad.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64f00d73f03ad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64f018fd53b53.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64f018fd53b53.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64f0192335f69.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64f0192335f69.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64f019b306cc7.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64f019b306cc7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_64f01c892ac51.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_64f01c892ac51.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_65379b1199238.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_65379b1199238.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_653f679873239.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_653f679873239.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6540c71ea792a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6540c71ea792a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6541030973a2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6541030973a2e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_65411892cea06.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_65411892cea06.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_654b7347ef955.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_654b7347ef955.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6553294fc7bf0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6553294fc7bf0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_65532acf9473a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_65532acf9473a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6553430181784.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6553430181784.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_65535cc32d5eb.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_65535cc32d5eb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655623e2955cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655623e2955cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_65562426d219d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_65562426d219d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655b2feebde54.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655b2feebde54.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655b30b54f187.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655b30b54f187.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655b335bf3336.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655b335bf3336.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655c85544f1ff.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655c85544f1ff.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655c89cb9f7ce.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655c89cb9f7ce.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655c8b81d2e3e.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655c8b81d2e3e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655dc9a98efe9.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655dc9a98efe9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655f0bd3b3ca0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655f0bd3b3ca0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655f3843079df.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655f3843079df.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_655f3a2724398.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_655f3a2724398.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6565f69dafa85.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6565f69dafa85.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_656dc8af57bac.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_656dc8af57bac.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_656eebce8c227.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_656eebce8c227.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_65707216c490f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_65707216c490f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_65718172c8794.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_65718172c8794.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_657303af61ff1.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_657303af61ff1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6576e33ee4ab3.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6576e33ee4ab3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6576e4e9067a8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6576e4e9067a8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67694f699ea0b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67694f699ea0b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6769503414fbc.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6769503414fbc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67697a15b41a5.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67697a15b41a5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67697c98d7fbb.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67697c98d7fbb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_676a890e6f4ba.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_676a890e6f4ba.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_676a8aa0b6322.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_676a8aa0b6322.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_676d53da1105b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_676d53da1105b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_676d577fdce4c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_676d577fdce4c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_677289c28b89b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_677289c28b89b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67728e0176b33.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67728e0176b33.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_677fb5d0650bc.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_677fb5d0650bc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_677fb6648cc88.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_677fb6648cc88.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67864cc78137a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67864cc78137a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67864edded1e8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67864edded1e8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6788d1a073bf1.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6788d1a073bf1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6788d39aeffa5.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6788d39aeffa5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_678fb3ca2679f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_678fb3ca2679f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_678fb515757ac.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_678fb515757ac.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6790ffb0a4a43.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6790ffb0a4a43.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6790fffac9294.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6790fffac9294.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67913057299b6.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67913057299b6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6791317fd7ef3.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6791317fd7ef3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_679160d2a5901.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_679160d2a5901.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_679163bcb11ef.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_679163bcb11ef.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_679224a7b3ffa.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_679224a7b3ffa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6792277634f35.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6792277634f35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67975481e56e6.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67975481e56e6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_6797549ea186f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_6797549ea186f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_679cda05a47f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_679cda05a47f4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_679cda5d3e33b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_679cda5d3e33b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67a9e31279fb2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67a9e31279fb2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67a9e36e7926d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67a9e36e7926d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67aa07bbdf4ee.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67aa07bbdf4ee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67aa08331813f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67aa08331813f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67af0f44cf92f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67af0f44cf92f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67af0fd754bfa.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67af0fd754bfa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67af2a5faa2e4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67af2a5faa2e4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67af2a9e9e04f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67af2a9e9e04f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67b4584799561.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67b4584799561.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67b720e77e093.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67b720e77e093.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67b721dc427b3.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67b721dc427b3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67b84a35ce121.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67b84a35ce121.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67bc824969beb.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67bc824969beb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67bc82ab95a12.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67bc82ab95a12.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67bdad8f9ca56.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67bdad8f9ca56.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67bdae16e6333.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67bdae16e6333.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c04602f26cd.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c04602f26cd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c047b10cfa3.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c047b10cfa3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c34569b7fbf.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c34569b7fbf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c345a02ffd9.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c345a02ffd9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c4c7088f1d7.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c4c7088f1d7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c4c86b4c54c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c4c86b4c54c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c5a8c3028eb.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c5a8c3028eb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c5a8fc2359c.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c5a8fc2359c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c5c34615e19.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c5c34615e19.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c5c3aad55d6.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c5c3aad55d6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c5cb9b6feaa.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c5cb9b6feaa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67c5cbb3ececd.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67c5cbb3ececd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67dbf37abc246.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67dbf37abc246.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/group_67dbf3df62214.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/group_67dbf3df62214.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/post_type_64d3b02939a01.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/post_type_64d3b02939a01.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/post_type_64e835041ef8a.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/post_type_64e835041ef8a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/post_type_6790fd8d7bbb2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/post_type_6790fd8d7bbb2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/taxonomy_64d3b0f07d4ae.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/taxonomy_64d3b0f07d4ae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/taxonomy_64e83513cfe75.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/taxonomy_64e83513cfe75.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/acf-json/taxonomy_653b873aa177d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/acf-json/taxonomy_653b873aa177d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/animation-hero/animation-hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/animation-hero/animation-hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/animation-hero/animation-hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/animation-hero/animation-hero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/animation-hero/animation-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/animation-hero/animation-hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/animation-hero/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/animation-hero/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/atrijum-animation/atrijum-animation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/atrijum-animation/atrijum-animation.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/atrijum-animation/atrijum-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/atrijum-animation/atrijum-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/atrijum-animation/atrijum-animation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/atrijum-animation/atrijum-animation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/atrijum-animation/atrijum-animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/atrijum-animation/atrijum-animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/atrijum-animation/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/atrijum-animation/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/career-form/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/career-form/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/career-form/career-form.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/career-form/career-form.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/career-form/career-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/career-form/career-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/career-form/career-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/career-form/career-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/career-form/career-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/career-form/career-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/centralni-atrijum/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/centralni-atrijum/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/centralni-atrijum/centralni-atrijum.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/centralni-atrijum/centralni-atrijum.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/centralni-atrijum/centralni-atrijum.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/centralni-atrijum/centralni-atrijum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/centralni-atrijum/centralni-atrijum.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/centralni-atrijum/centralni-atrijum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/centralni-atrijum/centralni-atrijum.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/centralni-atrijum/centralni-atrijum.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/certificate-block/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/certificate-block/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/certificate-block/certificate-block.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/certificate-block/certificate-block.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/certificate-block/certificate-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/certificate-block/certificate-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/certificate-block/certificate-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/certificate-block/certificate-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/certificate-block/certificate-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/certificate-block/certificate-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/floors/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/floors/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/floors/floors.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/floors/floors.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/floors/floors.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/floors/floors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/floors/floors.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/floors/floors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/floors/floors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/floors/floors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero-text/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero-text/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero-text/hero-text.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero-text/hero-text.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero-text/hero-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero-text/hero-text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero-text/hero-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero-text/hero-text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero-text/hero-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero-text/hero-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero/hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero/hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero/hero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hero/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hero/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hover-images/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hover-images/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hover-images/hover-images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hover-images/hover-images.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hover-images/hover-images.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hover-images/hover-images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hover-images/hover-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hover-images/hover-images.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/hover-images/hover-images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/hover-images/hover-images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/locations/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/locations/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/locations/locations.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/locations/locations.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/locations/locations.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/locations/locations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/locations/locations.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/locations/locations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/locations/locations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/locations/locations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost-animation/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost-animation/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost-animation/odrzivost-animation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost-animation/odrzivost-animation.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost-animation/odrzivost-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost-animation/odrzivost-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost-animation/odrzivost-animation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost-animation/odrzivost-animation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost-animation/odrzivost-animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost-animation/odrzivost-animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost/odrzivost.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost/odrzivost.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost/odrzivost.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost/odrzivost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost/odrzivost.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost/odrzivost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/odrzivost/odrzivost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/odrzivost/odrzivost.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/poslovni-prostor/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/poslovni-prostor/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/poslovni-prostor/poslovni-prostor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/poslovni-prostor/poslovni-prostor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/poslovni-prostor/poslovni-prostor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/poslovni-prostor/poslovni-prostor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/poslovni-prostor/poslovni-prostor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/poslovni-prostor/poslovni-prostor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/poslovni-prostor/poslovni-prostor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/poslovni-prostor/poslovni-prostor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/scroll-images/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/scroll-images/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/scroll-images/scroll-images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/scroll-images/scroll-images.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/scroll-images/scroll-images.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/scroll-images/scroll-images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/scroll-images/scroll-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/scroll-images/scroll-images.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/scroll-images/scroll-images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/scroll-images/scroll-images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text-image-button/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text-image-button/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text-image-button/text-image-button.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text-image-button/text-image-button.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text-image-button/text-image-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text-image-button/text-image-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text-image-button/text-image-button.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text-image-button/text-image-button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text-image-button/text-image-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text-image-button/text-image-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text/text.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text/text.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text/text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text/text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/text/text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/text/text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/wysiwyg-editor/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/wysiwyg-editor/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/wysiwyg-editor/wysiwyg-editor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/wysiwyg-editor/wysiwyg-editor.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/wysiwyg-editor/wysiwyg-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/wysiwyg-editor/wysiwyg-editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/wysiwyg-editor/wysiwyg-editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/wysiwyg-editor/wysiwyg-editor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/wysiwyg-editor/wysiwyg-editor.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/wysiwyg-editor/wysiwyg-editor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/wysiwyg-editor/wysiwyg-editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/wysiwyg-editor/wysiwyg-editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zakupci/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zakupci/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zakupci/zakupci.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zakupci/zakupci.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zakupci/zakupci.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zakupci/zakupci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zakupci/zakupci.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zakupci/zakupci.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zakupci/zakupci.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zakupci/zakupci.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zoom-image/block.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zoom-image/block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zoom-image/zoom-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zoom-image/zoom-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zoom-image/zoom-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zoom-image/zoom-image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zoom-image/zoom-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zoom-image/zoom-image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/blocks/zoom-image/zoom-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/blocks/zoom-image/zoom-image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/animation-hero/animation-hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/animation-hero/animation-hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/animation-hero/animation-hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/animation-hero/animation-hero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/animation-hero/animation-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/animation-hero/animation-hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/atrijum-animation/atrijum-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/atrijum-animation/atrijum-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/atrijum-animation/atrijum-animation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/atrijum-animation/atrijum-animation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/atrijum-animation/atrijum-animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/atrijum-animation/atrijum-animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/button_iron/button_iron.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/button_iron/button_iron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/button_iron/button_iron.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/button_iron/button_iron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/button_iron/button_iron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/button_iron/button_iron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/career-form/career-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/career-form/career-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/career-form/career-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/career-form/career-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/career-form/career-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/career-form/career-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/centralni-atrijum/centralni-atrijum.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/centralni-atrijum/centralni-atrijum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/centralni-atrijum/centralni-atrijum.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/centralni-atrijum/centralni-atrijum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/centralni-atrijum/centralni-atrijum.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/centralni-atrijum/centralni-atrijum.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/certificate-block/certificate-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/certificate-block/certificate-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/certificate-block/certificate-block.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/certificate-block/certificate-block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/certificate-block/certificate-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/certificate-block/certificate-block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/coming-soon/coming-soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/coming-soon/coming-soon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/coming-soon/coming-soon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/coming-soon/coming-soon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/coming-soon/coming-soon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/coming-soon/coming-soon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/contact-form-footer/contact-form-footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/contact-form-footer/contact-form-footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/contact-form-footer/contact-form-footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/contact-form-footer/contact-form-footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/contact-form-footer/contact-form-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/contact-form-footer/contact-form-footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/floors/floors.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/floors/floors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/floors/floors.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/floors/floors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/floors/floors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/floors/floors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hero-text/hero-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hero-text/hero-text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hero-text/hero-text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hero-text/hero-text.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hero-text/hero-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hero-text/hero-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hero/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hero/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hero/hero.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hero/hero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hero/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hero/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/home-animation/home-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/home-animation/home-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/home-animation/home-animation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/home-animation/home-animation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/home-animation/home-animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/home-animation/home-animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hover-images/hover-images.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hover-images/hover-images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hover-images/hover-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hover-images/hover-images.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/hover-images/hover-images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/hover-images/hover-images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/locations/locations.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/locations/locations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/locations/locations.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/locations/locations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/locations/locations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/locations/locations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/odrzivost-animation/odrzivost-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/odrzivost-animation/odrzivost-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/odrzivost-animation/odrzivost-animation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/odrzivost-animation/odrzivost-animation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/odrzivost-animation/odrzivost-animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/odrzivost-animation/odrzivost-animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/odrzivost/odrzivost.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/odrzivost/odrzivost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/odrzivost/odrzivost.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/odrzivost/odrzivost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/odrzivost/odrzivost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/odrzivost/odrzivost.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/poslovni-prostor/poslovni-prostor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/poslovni-prostor/poslovni-prostor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/poslovni-prostor/poslovni-prostor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/poslovni-prostor/poslovni-prostor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/poslovni-prostor/poslovni-prostor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/poslovni-prostor/poslovni-prostor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/scroll-images/scroll-images.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/scroll-images/scroll-images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/scroll-images/scroll-images.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/scroll-images/scroll-images.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/scroll-images/scroll-images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/scroll-images/scroll-images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/text-image-button/text-image-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/text-image-button/text-image-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/text-image-button/text-image-button.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/text-image-button/text-image-button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/text-image-button/text-image-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/text-image-button/text-image-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/wysiwyg-editor/wysiwyg-editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/wysiwyg-editor/wysiwyg-editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/wysiwyg-editor/wysiwyg-editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/wysiwyg-editor/wysiwyg-editor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/wysiwyg-editor/wysiwyg-editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/wysiwyg-editor/wysiwyg-editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/zakupci/zakupci.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/zakupci/zakupci.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/zakupci/zakupci.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/zakupci/zakupci.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/zakupci/zakupci.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/zakupci/zakupci.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/zoom-image/zoom-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/zoom-image/zoom-image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/zoom-image/zoom-image.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/zoom-image/zoom-image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/components/zoom-image/zoom-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/components/zoom-image/zoom-image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/footer-coming-soon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/footer-coming-soon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/header-coming-soon.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/header-coming-soon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/inc/news-ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/inc/news-ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/inc/search-ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/inc/search-ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/inc/tech-news-ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/inc/tech-news-ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/page-about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/page-about-us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/page-brands.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/page-brands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/page-career.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/page-career.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/page-history.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/page-history.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/page-homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/page-homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/page-management.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/page-management.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/screenshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/screenshot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/single-zaposleni.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/single-zaposleni.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/CeraPro-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/CeraPro-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/CeraPro-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/CeraPro-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/Mallory-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/Mallory-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/Mallory-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/Mallory-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/Mallory-Book.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/Mallory-Book.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/Mallory-Book.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/Mallory-Book.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/Mallory-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/Mallory-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/fonts/Mallory-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/fonts/Mallory-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/images/button-pdf-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/images/button-pdf-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/acf-blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/acf-blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/admin-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/admin-styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/components/footer-coming-soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/components/footer-coming-soon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/components/header-coming-soon.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/components/header-coming-soon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/page-about-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/page-about-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/page-brands.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/page-brands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/page-career.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/page-career.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/page-history.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/page-history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/page-homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/page-homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/page-management.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/page-management.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/single-zaposleni.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/single-zaposleni.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/js/single.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/js/single.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/404.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/404.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/acf-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/acf-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/admin-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/admin-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/components/footer-coming-soon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/components/footer-coming-soon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/components/footer-newsletter-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/components/footer-newsletter-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/components/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/components/header-coming-soon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/components/header-coming-soon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/components/hero-small.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/components/hero-small.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_box-sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_box-sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/general/_wp-blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/general/_wp-blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/news.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/news.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/page-about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/page-about-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/page-brands.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/page-brands.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/page-career.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/page-career.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/page-history.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/page-history.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/page-homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/page-homepage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/page-management.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/page-management.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/single-zaposleni.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/single-zaposleni.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/src/scss/single.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/src/scss/single.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/theme.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/theme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/deltairon/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;salezaric&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IT-Delta-Holding/delta-iron.git&quot;,
+    &quot;accountId&quot;: &quot;a266b8cb-7462-4599-bfe9-633c59adcd44&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="39sxKF5R7clgNRzl1XPr6Ac0d6c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zarale/web projekti/github-deltairon/delta-iron&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PS-252.26830.95" />
+        <option value="bundled-php-predefined-a98d8de5180a-9b563d34894c-com.jetbrains.php.sharedIndexes-PS-252.26830.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b53a0c8-3aca-4b17-8709-5d0a43309171" name="Changes" comment="" />
+      <created>1771498513732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771498513732</updated>
+      <workItem from="1771498514946" duration="2966000" />
+    </task>
+    <task id="LOCAL-00001" summary="Inicjalni commit">
+      <option name="closed" value="true" />
+      <created>1771498570191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771498570191</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dodat themes folder">
+      <option name="closed" value="true" />
+      <created>1771499767165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771499767165</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Testiranje izmena">
+      <option name="closed" value="true" />
+      <created>1771500105970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771500105970</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Testiranje izmena v2">
+      <option name="closed" value="true" />
+      <created>1771500402668</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771500402668</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dodat ceo kod u wp-content/themes folder">
+      <option name="closed" value="true" />
+      <created>1771500901281</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771500901281</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicjalni commit" />
+    <MESSAGE value="Dodat themes folder" />
+    <MESSAGE value="Testiranje izmena" />
+    <MESSAGE value="Testiranje izmena v2" />
+    <MESSAGE value="Dodat ceo kod u wp-content/themes folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodat ceo kod u wp-content/themes folder" />
+  </component>
+</project>
