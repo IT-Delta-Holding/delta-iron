@@ -1,0 +1,11 @@
+## za macOS ##
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## PHP Storm ##
+.idea/
+
+#Node.js Specific files
+/node_modules
+

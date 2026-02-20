@@ -63,17 +63,17 @@
                 $counter            = 0;
             ?>
             <div class="container">
-<!--                <div class="header__hamburger-menu">-->
-<!--                <div class="header__hamburger js-header-hamburger">-->
-<!--                    <div class="header__hamburger-lines header__hamburger-lines--1">-->
-<!--                        <span class="header__hamburger-lines-one header__hamburger-lines-one--1"></span>-->
-<!--                    </div>-->
-<!--                    <div class="header__hamburger-lines header__hamburger-lines--2">-->
-<!--                        <span class="header__hamburger-lines-two header__hamburger-lines-two--1"></span>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <p class="header__hamburger-text">--><?php //= $hamburger_text ?><!--</p>-->
-<!--                </div>-->
+                <div class="header__hamburger-menu">
+                <div class="header__hamburger js-header-hamburger">
+                    <div class="header__hamburger-lines header__hamburger-lines--1">
+                        <span class="header__hamburger-lines-one header__hamburger-lines-one--1"></span>
+                    </div>
+                    <div class="header__hamburger-lines header__hamburger-lines--2">
+                        <span class="header__hamburger-lines-two header__hamburger-lines-two--1"></span>
+                    </div>
+                </div>
+                <p class="header__hamburger-text"><?= $hamburger_text ?></p>
+                </div>
 
                 <!--  EXPANDED-->
                 <div class="header__menu">
