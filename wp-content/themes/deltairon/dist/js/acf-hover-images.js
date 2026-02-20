@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector(".hover-images__content--image-1"),t=document.querySelector(".hover-images__content--image-2");window.innerWidth>1023&&e&&t&&(t.addEventListener("mouseover",(function(){e.style.width="30%",t.style.width="70%"})),t.addEventListener("mouseleave",(function(){e.style.width="70%",t.style.width="30%"})))})();
